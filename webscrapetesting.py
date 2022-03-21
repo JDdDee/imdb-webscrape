@@ -10,7 +10,7 @@ Created on Mon Mar 14 19:25:50 2022
 
 """ 
 TO DO:
-    
+    condense stuff into methods/functions better. rn i just coded everything into main and its kind of messy - Jared
 """
 
 from bs4 import BeautifulSoup
