@@ -5,6 +5,14 @@ Created on Mon Mar 14 19:25:50 2022
 @author: JD
 """
 
+# tutorial i used : https://www.youtube.com/watch?v=XVv6mJpFOb0&
+# you may need to install beautifulsoup and lxml to properly compile this. He goes over how to install in that video
+
+""" 
+TO DO:
+    
+"""
+
 from bs4 import BeautifulSoup
 import requests
 
