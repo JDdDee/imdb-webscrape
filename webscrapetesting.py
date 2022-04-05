@@ -83,7 +83,7 @@ movie_html_text = requests.get(moviepage_url).text
 movie_soup = BeautifulSoup(movie_html_text, 'lxml')
 
 # get the title of the movie, important people, and directors
-title = movie_soup.find('h1', class_ = 'TitleHeader__TitleText-sc-1wu6n3d-0 dxSWFG').text
+#title = movie_soup.find('h1', class_ = 'TitleHeader__TitleText-sc-1wu6n3d-0 dxSWFG').text
 importantpeople = movie_soup.find('ul', class_ = 'ipc-metadata-list ipc-metadata-list--dividers-all title-pc-list ipc-metadata-list--baseAlt')
 directors = importantpeople.find_all('li', class_ = 'ipc-metadata-list__item')
 
