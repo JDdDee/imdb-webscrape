@@ -50,22 +50,37 @@ def getMovieLinks():
 
 # given the link to a moviepage, get all the info that we may want.
 # link to the google doc with schemas : https://docs.google.com/document/d/1u5GSzlVB__nNwAN6gUZsgE6nMR-T4LVavB8agKqINrY/edit
-# will likely be very very long
+# output of this function will most likely be a dataframe with columns (movieid, movietitle, grossing, releasedate, rating, etc.)
 def getMovieInfo(moviePageUrl):
     soup = BeautifulSoup(requests.get(moviePageUrl).text, 'lxml')
     
-    temp = []
+    # variables are named to match the names of the attributes of the relation schema
     # budget: there is no budget listing for movies
-    title = soup.find('h1', class_ = 'sc-b73cd867-0 eKrKux').text #Name
+    title = soup.find('h1', class_ = 'sc-b73cd867-0 eKrKux').text #name
     grossingWorldwide = soup.find('li', class_ = "ipc-metadata-list__item sc-3c7ce701-2 eYXppQ").find('span').find_next_sibling().text # grossing worldwide
-    # had to use attrs={key : value} for this because the key had a hyphen in it and python doesnt like that
+    # had to use attrs={key : value} because the key had a hypen in it and python doesnt like that
     releaseDate = soup.find('li', attrs={'data-testid' : 'title-details-releasedate'}).a.find_next_sibling().text
+    
+    
 
-    return temp
+    print(title)
+    print(grossingWorldwide)
+    print(releaseDate)
+    
+    
 "end def"
 
-#movies = soup.find_all('div', class_ = 'lister-list')
+# test that the movielinks function is working
+links = getMovieLinks()
+for x in links:
+    print(x)
 
+
+
+
+
+
+## old/irrelevant code used to learn and get familiar with beautifulsoup functionalities ##
 # gets the first movie in the list
 movie = soup.find('div', class_ = 'lister-item mode-advanced')
 # gets the first 'a' head, which includes the link to the movie page containing more details
