@@ -10,12 +10,12 @@ Created on Mon Mar 14 19:25:50 2022
 
 """ 
 TO DO:
-    condense stuff into methods/functions better. rn i just coded everything into main and its kind of messy - Jared
+    
 """
+
 
 from bs4 import BeautifulSoup
 import requests
-
 
 
 # get the html data from the imdb comedy movie list
@@ -40,7 +40,7 @@ def getMovieLinks():
         soup = BeautifulSoup(requests.get(url).text, 'lxml')
         moviecards = soup.find_all('h3', class_ = 'lister-item-header')
         for m in moviecards:
-            movieLinkList.append(imdb_url + m.a.get('href'))
+           movieLinkList.append(imdb_url + m.a.get('href'))
         url = getNextPageURL(url)
     "end for"
 
@@ -55,32 +55,73 @@ def getMovieInfo(moviePageUrl):
     soup = BeautifulSoup(requests.get(moviePageUrl).text, 'lxml')
     
     # variables are named to match the names of the attributes of the relation schema
-    # budget: there is no budget listing for movies
+    
+    movieID = moviePageUrl[27:37]
     title = soup.find('h1', class_ = 'sc-b73cd867-0 eKrKux').text #name
-    grossingWorldwide = soup.find('li', class_ = "ipc-metadata-list__item sc-3c7ce701-2 eYXppQ").find('span').find_next_sibling().text # grossing worldwide
+    
+    temp = soup.find('div', attrs={'data-testid' : 'title-boxoffice-section'}) # grossing info
+    if(temp != None):
+        grossingUS_CA = temp.find('li', attrs={'data-testid' : 'title-boxoffice-grossdomestic'})
+        if(grossingUS_CA !=None):
+            grossingUS_CA = grossingUS_CA.find('li').text
+        grossingUS_CA_OpeningWeekend = temp.find('li', attrs={'data-testid' : 'title-boxoffice-openingweekenddomestic'})
+        if(grossingUS_CA_OpeningWeekend != None):
+            grossingUS_CA_OpeningWeekend = grossingUS_CA_OpeningWeekend.find('li').text
+        grossingWorldwide = temp.find('li', attrs={'data-testid' : 'title-boxoffice-cumulativeworldwidegross'})
+        if(grossingWorldwide != None):
+            grossingWorldwide = grossingWorldwide.find('li').text
+    
     # had to use attrs={key : value} because the key had a hypen in it and python doesnt like that
-    releaseDate = soup.find('li', attrs={'data-testid' : 'title-details-releasedate'}).a.find_next_sibling().text
+    #note on release date can do a .split('(')[0] to remove the place
+    releaseDate = soup.find('li', attrs={'data-testid' : 'title-details-releasedate'}).a.find_next_sibling().text # release date
+    countriesOfOrigin = soup.find('li', attrs={'data-testid' : 'title-details-origin'}).find_all('li') # countries of origin
+    # temp variables initialized to make countires of origin
+    temp2 = ""
+    for x in countriesOfOrigin:
+        temp2 = temp2 + x.text + ", "
+    countries_of_origin = temp2[:-2] # removes the last comma and space
+    imdb_rating = soup.find('div', class_ = 'sc-7ab21ed2-2 kYEdvH').text.split('/')[0] # imdb rating
+    popularity_score = soup.find('div', attrs={'data-testid' : 'hero-rating-bar__popularity__score'}).text #popularity score
+    popularity_delta = soup.find('div', attrs={'data-testid' : 'hero-rating-bar__popularity__delta'}).text #popularity delta
+    runtime = soup.find('li', attrs={'data-testid' : 'title-techspec_runtime'}).find('div').text #runtime
+    color = soup.find('li', attrs={'data-testid' : 'title-techspec_color'}).find('li').text # color
+    aspectratio = soup.find('li', attrs= {'data-testid' : 'title-techspec_aspectratio'}).find('div').text # aspectratio
     
-    
-
+    """
+    print(movieID)
     print(title)
+    print(grossingUS_CA)
+    print(grossingUS_CA_OpeningWeekend)
     print(grossingWorldwide)
     print(releaseDate)
+    print(countries_of_origin)
+    print(imdb_rating)
+    print(popularity_score)
+    print(popularity_delta)
+    print(runtime)
+    print(color)
+    print(aspectratio)
+    """
+    
+    
+    top_castlist = soup.find_all('a', attrs={'data-testid' : 'title-cast-item__actor'})
+    castlinks = []
+    for n in top_castlist:
+        castlinks.append(imdb_url + n.get('href'))
+    
+    
     
     
 "end def"
 
+
 # test that the movielinks function is working
 links = getMovieLinks()
-for x in links:
-    print(x)
+print(links)
+    
 
+#getMovieInfo('https://www.imdb.com/title/tt13320622/?ref_=adv_li_tt')
 
-
-
-
-
-## old/irrelevant code used to learn and get familiar with beautifulsoup functionalities ##
 # gets the first movie in the list
 movie = soup.find('div', class_ = 'lister-item mode-advanced')
 # gets the first 'a' head, which includes the link to the movie page containing more details
@@ -97,15 +138,15 @@ moviepage_url = imdb_url + relative_webaddress
 movie_html_text = requests.get(moviepage_url).text
 movie_soup = BeautifulSoup(movie_html_text, 'lxml')
 
-# get the title of the movie, important people, and directors
-#title = movie_soup.find('h1', class_ = 'TitleHeader__TitleText-sc-1wu6n3d-0 dxSWFG').text
+# get title of the movie, important people, and directors
+title = movie_soup.find('h1', class_ = 'TitleHeader__TitleText-sc-1wu6n3d-0 dxSWFG')
 importantpeople = movie_soup.find('ul', class_ = 'ipc-metadata-list ipc-metadata-list--dividers-all title-pc-list ipc-metadata-list--baseAlt')
 directors = importantpeople.find_all('li', class_ = 'ipc-metadata-list__item')
 
-# prints all the important people that contributed to the movie
-for test in directors:
-    print(test.text)
+#for test in directors:
+#    print(test.text)
 
-
+# prints all the attributes that title has
+# print(title.attrs)
 
 
