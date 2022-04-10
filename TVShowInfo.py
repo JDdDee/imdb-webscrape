@@ -1,40 +1,29 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Apr  5 00:46:37 2022
+Created on Sun Apr 10 13:56:17 2022
 
 @author: JD
-
-Description:
-    This file is basically what is going to be copy pasted into the getMovieInfo() function in webscrapetesting
-    its supposed to scrape all the data/variables we need from a movie page
-
-
 """
 
-
-
-
+import pickle
 from bs4 import BeautifulSoup
 import requests
 
-movieID = 0
-
-imdb_url = 'https://www.imdb.com'
-#coda movie url
-#url = 'https://www.imdb.com/title/tt10366460/?ref_=adv_li_tt'
-
-#The Lost city movie url
-url = 'https://www.imdb.com/title/tt13320622/?ref_=adv_li_tt'
-
 #our flag means death tv show url
-#url = 'https://www.imdb.com/title/tt11000902/?ref_=adv_li_tt'
+url = 'https://www.imdb.com/title/tt11000902/?ref_=adv_li_tt'
 
 
 soup = BeautifulSoup(requests.get(url).text,'lxml')
 
+
+pickle_in = open('test2.p', 'rb')
+#pickle_in = open('TVShowPagelinks.p', 'rb')
+TVShowLinks = pickle.load(pickle_in)
+pickle_in.close()
+
 # variables are named to match the names of the attributes of the relation schema
 # budget: there is no budget listing for movies
-movieID = url[27:37]
+TVShowID = url[27:37]
 title = soup.find('h1', class_ = 'sc-b73cd867-0 eKrKux').text #name
 
 temp = soup.find('div', attrs={'data-testid' : 'title-boxoffice-section'}) # grossing info
@@ -67,10 +56,10 @@ popularity_score = soup.find('div', attrs={'data-testid' : 'hero-rating-bar__pop
 popularity_delta = soup.find('div', attrs={'data-testid' : 'hero-rating-bar__popularity__delta'}).text #popularity delta
 runtime = soup.find('li', attrs={'data-testid' : 'title-techspec_runtime'}).find('div').text #runtime
 color = soup.find('li', attrs={'data-testid' : 'title-techspec_color'}).find('li').text # color
-#aspectratio = soup.find('li', attrs= {'data-testid' : 'title-techspec_aspectratio'}).find('div').text # aspectratio
 
 
-print(movieID)
+
+print(TVShowID)
 print(title)
 print(grossingUS_CA)
 print(grossingUS_CA_OpeningWeekend)
@@ -82,38 +71,6 @@ print(popularity_score)
 print(popularity_delta)
 print(runtime)
 print(color)
-#print(aspectratio)
-
-
-
-""" ------------------------------- cast --------------------------------------- """
-top_castlist = soup.find_all('a', attrs={'data-testid' : 'title-cast-item__actor'})
-
-castlinks = []
-for n in top_castlist:
-    castlinks.append(imdb_url + n.get('href'))
-#print(castlinks)
-
-"""
-for n in top_castlist:
-    cast_url = imdb_url + n.get('href')
-    #print(cast_url)
-    castname = n.text
-    castid = n.get('href')[6:15]
-    soup2 = BeautifulSoup(requests.get(cast_url).text,'lxml')
-    temp = soup2.find('div', attrs={'id':'name-born-info'})
-    if(temp != None):
-        dob = temp.time['datetime']
-        born_in = temp.find_all('a')[2].text
-    else:
-        dob = None
-        born_in = None
-    print(castid)
-    print(castname)
-    print(dob)
-    print(born_in)
-""" 
-""" ---------------------------------------------------------------------"""
 
 prodsoup = soup.find('li', attrs={'data-testid' : 'title-details-companies'}).find('ul').find_all('li') # production companies
 productionCompanies = [x.text for x in prodsoup]
@@ -146,14 +103,3 @@ writers = [x.a.text for x in writersoup]
 print(directors)
 print(writers)
 
-
-#print(releaseDate)
-#grossing = soup.find_all('span', class_ = 'ipc-metadata-list-item__list-content-item')
-#for x in grossing:
-#    print(x.text)
-
-#for tag in releaseDate.find_all(True):
-#    print(tag.name)
-
-
-#print(grossing)
