@@ -1,0 +1,137 @@
+mID,name,releaseDate,popularity_score,popularity_delta,color,runtime,aspectratio,imdb_rating,grossingUS_CA,grossingUS_CA_OpeningWeekend,grossingWorldwide
+tt1119833,House of the Dragon,"August 21, 2022 (United States)",47,163,Color,,1.78 : 1,,,,
+tt4263482,The Witch,"February 19, 2016 (United States)",223,31,Color,1 hour 32 minutes,1.66 : 1,6.9,"$25,138,705","$8,800,230","$40,423,945"
+tt2322441,Fifty Shades of Grey,"February 13, 2015 (United States)",114,15,Color,2 hours 5 minutes,2.39 : 1,4.2,"$166,167,230","$85,171,450","$569,651,467"
+tt0110912,Pulp Fiction,"October 14, 1994 (United States)",80,31,Color,2 hours 34 minutes,2.39 : 1,8.9,"$107,928,762","$9,311,882","$213,928,762"
+tt5834426,Moonfall,"February 4, 2022 (United States)",17,131,Color,2 hours 10 minutes,2.39 : 1,5.2,"$19,060,660","$9,868,997","$42,991,436"
+tt1037071,The Worst Person in the World,"October 13, 2021 (France)",37,2,Color,2 hours 8 minutes,1.85 : 1,7.9,"$3,034,775","$138,424","$10,972,280"
+tt5726616,Call Me by Your Name,"January 19, 2018 (United States)",187,175,Color,2 hours 12 minutes,1.85 : 1,7.9,"$18,095,701","$412,932","$41,888,660"
+tt1128631,Don't Look Up,"December 24, 2021 (United States)",36,4,Color,2 hours 18 minutes,2.39 : 1,7.2,,,"$791,863"
+tt2953050,Encanto,"November 24, 2021 (United States)",23,3,Color,1 hour 42 minutes,1.85 : 1,7.3,"$96,091,330","$27,206,494","$253,260,273"
+tt0351283,Madagascar,"May 27, 2005 (United States)",138,"1,593",Color,1 hour 26 minutes,1.85 : 1,6.9,"$193,595,521","$47,224,594","$542,063,846"
+tt1129127,The Unbearable Weight of Massive Talent,"April 22, 2022 (United States)",38,12,Color,1 hour 45 minutes,2.39 : 1,8.7,,,
+tt0382932,Ratatouille,"June 29, 2007 (United States)",397,131,Color,1 hour 51 minutes,2.39 : 1,8.1,"$206,445,654","$47,027,395","$623,726,085"
+tt9464038,The Windshield Wiper,"February 25, 2022 (United States)",312,"4,464",Color,15 minutes,1.78 : 1,6.7,,,
+tt3183660,Fantastic Beasts and Where to Find Them,"November 18, 2016 (United States)",130,9,Color,2 hours 12 minutes,2.39 : 1,7.3,"$234,037,575","$74,403,387","$814,044,001"
+tt0117571,Scream,"December 20, 1996 (United States)",218,82,Color,1 hour 51 minutes,2.39 : 1,7.4,"$103,046,663","$6,354,586","$173,046,663"
+tt1160419,Dune,"October 22, 2021 (United States)",8,10,Color,2 hours 35 minutes,2.39 : 1,8.1,"$108,327,830","$41,011,174","$400,671,789"
+tt1655389,Blonde,2022 (United States),144,81,Color,,2.39 : 1,,,,
+tt1036646,CODA,"August 13, 2021 (United States)",1,15,Color,1 hour 51 minutes,1.85 : 1,8.1,,,"$1,546,009"
+tt1112768,Boiling Point,"January 7, 2022 (United Kingdom)",48,25,Color,1 hour 32 minutes,2.35 : 1,7.5,,,"$705,045"
+tt5108870,Morbius,"April 1, 2022 (United States)",3,24,Color,1 hour 44 minutes,2.39 : 1,5.2,"$57,077,221","$39,005,895","$126,377,221"
+tt1356057,X,"March 18, 2022 (United States)",9,6,Color,1 hour 45 minutes,1.90 : 1,7.3,"$10,924,826","$4,275,126","$11,723,233"
+tt1087260,Spider-Man: No Way Home,"December 17, 2021 (United States)",14,7,Color,2 hours 28 minutes,,8.5,"$803,815,848","$260,138,569","$1,891,815,848"
+tt3470600,Sing,"December 21, 2016 (United States)",365,108,Color,1 hour 48 minutes,1.85 : 1,7.1,"$270,578,425","$35,258,145","$634,338,384"
+tt1009558,The Tragedy of Macbeth,"January 14, 2022 (United States)",72,46,Black and White,1 hour 45 minutes,1.37 : 1,7.2,,,"$524,771"
+tt1280126,Luca,"June 18, 2021 (United States)",258,11,Color,1 hour 35 minutes,1.85 : 1,7.5,,,"$49,750,471"
+tt4123432,Fantastic Beasts: The Secrets of Dumbledore,"April 15, 2022 (United States)",32,8,Color,2 hours 22 minutes,1.85 : 12.39:1,6.7,,,"$10,000,000"
+tt0120338,Titanic,"December 19, 1997 (United States)",134,4,Color,3 hours 14 minutes,2.39 : 1,7.9,"$659,363,944","$28,638,131","$2,201,647,264"
+tt0816692,Interstellar,"November 7, 2014 (United States)",82,16,,2 hours 49 minutes,2.39 : 1,8.7,"$188,020,017","$47,510,360","$701,729,206"
+tt1132440,The Staircase,"May 5, 2022 (United States)",109,767,Color,,,,,,
+tt2184390,So Cold the River,"March 25, 2022 (United States)",127,"2,681",Color,1 hour 35 minutes,2.00 : 1,4.6,,,
+tt1345836,The Dark Knight Rises,"July 20, 2012 (United States)",85,14,Color,2 hours 44 minutes,2.39 : 1,8.4,"$448,149,584","$160,887,295","$1,081,153,097"
+tt3794354,Sonic the Hedgehog,"February 14, 2020 (United States)",122,96,Color,1 hour 39 minutes,2.39 : 1,6.5,"$148,974,665","$58,018,348","$319,715,683"
+tt7131622,Once Upon a Time... In Hollywood,"July 26, 2019 (United States)",55,22,Color,2 hours 41 minutes,2.39 : 1,7.6,"$142,502,728","$41,082,018","$374,565,754"
+tt6856242,The King's Man,"December 22, 2021 (United States)",42,19,Color,2 hours 11 minutes,2.39 : 1,6.3,"$37,176,373","$5,915,542","$125,897,478"
+tt1121459,House of Gucci,"November 24, 2021 (United States)",52,10,Color,2 hours 38 minutes,2.39 : 1,6.7,"$53,809,574","$14,423,794","$153,068,345"
+tt1124597,Scream,"January 14, 2022 (United States)",47,22,Color,1 hour 54 minutes,2.39 : 1,6.5,"$81,641,405","$30,018,805","$140,041,405"
+tt9419884,Doctor Strange in the Multiverse of Madness,"May 6, 2022 (United States)",50,14,Color,2 hours 6 minutes,2.39 : 1,,,,
+tt5109280,Raya and the Last Dragon,"March 5, 2021 (United States)",299,20,Color,1 hour 47 minutes,2.39 : 1,7.3,"$54,723,032","$8,502,498","$130,423,032"
+tt1032367,The Contractor,"April 1, 2022 (United States)",34,111,Color,1 hour 43 minutes,2.35 : 1,5.7,"$822,510","$560,678","$1,774,597"
+tt0317219,Cars,"June 9, 2006 (United States)",392,114,Color,1 hour 57 minutes,,7.2,"$244,082,982","$60,119,509","$461,991,867"
+tt1241288,Sonic the Hedgehog 2,"April 8, 2022 (United States)",30,15,Color,2 hours 2 minutes,2.39 : 1,7.1,"$71,000,000","$71,000,000","$141,000,000"
+tt0087182,Dune,"December 14, 1984 (United States)",84,56,Color,2 hours 17 minutes,2.35 : 1,6.3,"$30,925,690","$6,025,091","$30,979,816"
+tt1877830,The Batman,"March 4, 2022 (United States)",4,3,Color,2 hours 56 minutes,2.39 : 1,8.3,"$359,052,000","$134,008,624","$735,152,000"
+tt9639470,Last Night in Soho,"October 29, 2021 (United States)",117,7,Color,1 hour 56 minutes,2.39 : 1,7.1,"$10,127,625","$4,178,460","$22,957,625"
+tt9376612,Shang-Chi and the Legend of the Ten Rings,"September 3, 2021 (United States)",109,10,Color,2 hours 12 minutes,,7.5,"$224,543,292","$75,388,688","$432,243,292"
+tt1340304,Fresh,"March 4, 2022 (United States)",29,18,Color,1 hour 54 minutes,1.85 : 1,6.7,,,
+tt1323582,Umma,"March 18, 2022 (United States)",253,159,Color,1 hour 23 minutes,2.39:1,4.8,"$2,071,495","$915,290","$2,071,495"
+tt1113851,The Northman,"April 22, 2022 (United States)",26,34,Color,2 hours 16 minutes,2.00 : 1,,,,
+tt6264654,Free Guy,"August 13, 2021 (United States)",51,16,Color,1 hour 55 minutes,2.39 : 1,7.2,"$121,626,598","$28,365,416","$331,526,598"
+tt8430054,Flee,"June 17, 2021 (Denmark)",96,82,Color,1 hour 29 minutes,2.40 : 1,8.0,"$339,754","$24,794","$623,010"
+tt0068646,The Godfather,"March 24, 1972 (United States)",33,5,Color,2 hours 55 minutes,1.85 : 1,9.2,"$136,381,073","$302,393","$250,341,816"
+tt1095465,Old,"July 23, 2021 (United States)",157,51,Color,1 hour 48 minutes,2.39 : 1,5.8,"$48,276,510","$16,854,735","$90,146,510"
+tt1363448,The Ice Age Adventures of Buck Wild,"January 28, 2022 (United States)",176,313,Color,1 hour 22 minutes,1.78 : 1,4.5,,,
+tt8296030,You Won't Be Alone,"April 14, 2022 (Australia)",197,99,Color,1 hour 48 minutes,1.44 : 1,7.0,"$235,175","$124,750","$235,175"
+tt1403958,Drive My Car,"November 24, 2021 (United States)",28,9,Color,2 hours 59 minutes,1.85 : 1,7.6,"$2,319,933","$13,775","$14,657,222"
+tt8772262,Midsommar,"July 3, 2019 (United States)",146,42,Color,2 hours 28 minutes,2.00 : 1,7.1,"$27,426,361","$6,560,030","$47,967,636"
+tt1745960,Top Gun: Maverick,"May 27, 2022 (United States)",10,80,Color,,2.39 : 1,,,,
+tt3402236,Murder on the Orient Express,"November 10, 2017 (United States)",56,139,Color,1 hour 54 minutes,2.39 : 1,6.5,"$102,826,543","$28,681,472","$352,794,081"
+tt9411972,Where the Crawdads Sing,"July 15, 2022 (United States)",65,56,Color,,,,,,
+tt4244994,The Last Duel,"October 15, 2021 (United States)",77,2,Color,2 hours 32 minutes,2.39 : 1,7.4,"$10,853,945","$4,759,151","$30,552,111"
+tt1236197,Zack Snyder's Justice League,"March 18, 2021 (United States)",190,24,Color,4 hours 2 minutes,1.33 : 1,8.1,,,
+tt1856101,Blade Runner 2049,"October 6, 2017 (United States)",40,142,Color,2 hours 44 minutes,2.39 : 1,8.0,"$92,071,675","$32,753,122","$259,352,064"
+tt3581652,West Side Story,"December 10, 2021 (United States)",16,2,Color,2 hours 36 minutes,2.39 : 1,7.3,"$38,530,322","$10,574,618","$75,744,386"
+tt7978758,Apollo 10½: A Space Age Childhood,"April 1, 2022 (United States)",166,"2,192",Color,1 hour 37 minutes,,7.3,,,
+tt0241527,Harry Potter and the Sorcerer's Stone,"November 16, 2001 (United States)",102,9,,2 hours 32 minutes,2.39 : 1,7.6,"$318,886,962","$90,294,621","$1,017,713,119"
+tt1029881,Lightyear,"June 17, 2022 (United States)",156,134,Color,,2.39 : 1,,,,
+tt0055614,West Side Story,"December 23, 1961 (Japan)",76,2,Color,2 hours 33 minutes,2.20 : 1,7.6,"$44,055,492","$207,145","$44,132,334"
+tt1464335,Uncharted,"February 18, 2022 (United States)",39,17,Color,1 hour 56 minutes,2.39 : 1,6.7,"$142,952,218","$44,010,155","$383,452,218"
+tt9032400,Eternals,"November 5, 2021 (United States)",57,13,Color,2 hours 36 minutes,2.39 : 1,6.4,"$164,870,234","$71,297,219","$402,064,899"
+tt1192438,The Long Goodbye,"March 6, 2020 (United Kingdom)",95,"2,611",Color,13 minutes,2.35 : 1,7.2,,,
+tt3228774,Cruella,"May 28, 2021 (United States)",87,150,Color,2 hours 14 minutes,1.85 : 1,7.4,"$86,103,234","$21,496,997","$233,503,234"
+tt4154796,Avengers: Endgame,"April 26, 2019 (United States)",78,6,,3 hours 1 minute,,8.4,"$858,373,000","$357,115,007","$2,797,501,328"
+tt0468569,The Dark Knight,"July 18, 2008 (United States)",53,19,,2 hours 32 minutes,2.39 : 1,9.1,"$534,987,076","$158,411,483","$1,006,102,277"
+tt1278955,Belfast,"November 12, 2021 (United States)",24,,Black and White,1 hour 38 minutes,1.85 : 1,7.3,"$9,250,870","$1,779,410","$46,922,870"
+tt4998632,Ambulance,"April 8, 2022 (United States)",27,10,Color,2 hours 16 minutes,2.39 : 1,6.5,"$8,700,000","$8,700,000","$31,177,000"
+tt0144084,American Psycho,"April 14, 2000 (United States)",107,5,Color,1 hour 42 minutes,2.35 : 1,7.6,"$15,070,285","$4,961,015","$34,266,564"
+tt6334354,The Suicide Squad,"August 5, 2021 (United States)",81,13,Color,2 hours 12 minutes,1.90 : 1,7.2,"$55,817,425","$26,205,415","$167,417,425"
+tt7984734,The Lighthouse,"November 1, 2019 (United States)",174,22,Black and White,1 hour 49 minutes,1.19 : 1,7.4,"$10,867,104","$427,797","$18,124,206"
+tt8480678,Pinocchio: A True Story,"February 17, 2022 (Russia)",192,167,Color,1 hour 34 minutes,,4.8,,,"$437,385"
+tt1128621,Master,"March 18, 2022 (United States)",158,108,Color,1 hour 38 minutes,2.39:1,4.9,,,
+tt1258507,Moonshot,"March 31, 2022 (United States)",44,624,Color,1 hour 44 minutes,,5.5,,,
+tt6920084,Resident Evil: Welcome to Raccoon City,"November 24, 2021 (United States)",238,42,Color,1 hour 47 minutes,2.39 : 1,5.2,"$17,000,612","$5,319,280","$38,600,612"
+tt1146622,Jackass Forever,"February 4, 2022 (United States)",54,24,Color,1 hour 36 minutes,1.85 : 1,7.1,"$57,743,451","$23,154,388","$79,857,962"
+tt6751668,Parasite,"November 8, 2019 (United States)",106,8,Color,2 hours 12 minutes,2.39 : 1,8.5,"$53,369,749","$393,216","$263,136,766"
+tt6710474,Everything Everywhere All at Once,"March 25, 2022 (United States)",25,6,Color,2 hours 19 minutes,1.85 : 1,9.0,"$8,428,962","$501,305","$8,428,962"
+tt2382320,No Time to Die,"October 8, 2021 (United States)",59,,Color,2 hours 43 minutes,2.39 : 1,7.3,"$160,891,007","$55,225,007","$774,153,007"
+tt1051906,The Invisible Man,"February 28, 2020 (United States)",292,128,Color,2 hours 4 minutes,2.39 : 1,7.1,"$70,410,000","$28,205,665","$143,151,000"
+tt6467266,Sing 2,"December 22, 2021 (United States)",43,6,Color,1 hour 50 minutes,1.85 : 1,7.5,"$162,319,630","$22,326,230","$401,449,630"
+tt5715874,The Killing of a Sacred Deer,"November 3, 2017 (United States)",244,77,Color,2 hours 1 minute,1.85 : 1,7.0,"$2,291,901","$115,120","$7,027,336"
+tt1064834,Thor: Love and Thunder,"July 8, 2022 (United States)",89,1,Color,,2.39 : 1,,,,
+tt1384185,Men,"May 20, 2022 (United States)",63,11,Color,,1.85 : 1,,,,
+tt1361056,The Bubble,"April 1, 2022 (United States)",18,150,Color,2 hours 6 minutes,2.39 : 1,4.7,,,
+tt1537407,Studio 666,"February 25, 2022 (United States)",73,13,Color,1 hour 46 minutes,2.35 : 1,5.8,"$2,513,963","$1,540,543","$3,001,105"
+tt8178634,RRR,"March 25, 2022 (United States)",5,28,Color,3 hours 7 minutes,2.35 : 1,9.0,"$11,113,000","$9,500,000","$99,035,665"
+tt1083818,The Matrix Resurrections,"December 22, 2021 (United States)",67,10,Color,2 hours 28 minutes,2.39 : 1,5.7,"$37,686,805","$10,749,011","$156,575,035"
+tt1503319,Windfall,"March 18, 2022 (United States)",31,25,Color,1 hour 32 minutes,2.39 : 1,5.7,,,
+tt1066533,Halloween Kills,"October 15, 2021 (United States)",224,133,Color,1 hour 45 minutes,2.39 : 1,5.6,"$92,002,155","$49,404,980","$131,647,155"
+tt7979580,The Mitchells vs the Machines,"April 30, 2021 (United States)",128,46,Color,1 hour 53 minutes,1.85 : 1,7.7,,,
+tt1094476,Titane,"October 1, 2021 (United States)",264,35,Color,1 hour 48 minutes,2.39 : 1,6.6,"$1,442,988","$533,397","$4,982,335"
+tt2948356,Zootopia,"March 4, 2016 (United States)",391,62,Color,1 hour 48 minutes,2.39 : 1,8.0,"$341,268,248","$75,063,401","$1,024,121,104"
+tt1175574,Texas Chainsaw Massacre,"February 18, 2022 (United States)",214,99,Color,1 hour 21 minutes,2.35 : 1,4.8,,,
+tt6705162,Cheaper by the Dozen,"March 18, 2022 (United States)",70,49,Color,1 hour 47 minutes,1.78 : 1,4.1,,,
+tt5052448,Get Out,"February 24, 2017 (United States)",252,22,Color,1 hour 44 minutes,2.39 : 1,7.7,"$176,196,665","$33,377,060","$255,745,157"
+tt8847712,The French Dispatch,"October 22, 2021 (United States)",69,14,Color,1 hour 47 minutes,1.85 : 1,7.2,"$16,124,375","$1,348,804","$46,333,545"
+tt3521164,Moana,"November 23, 2016 (United States)",302,80,Color,1 hour 47 minutes,2.39 : 1,7.6,"$248,757,044","$56,631,401","$644,136,488"
+tt4123430,Fantastic Beasts: The Crimes of Grindelwald,"November 16, 2018 (United States)",115,32,Color,2 hours 14 minutes,2.39 : 1,6.5,"$159,555,901","$62,163,104","$654,855,901"
+tt1332062,The Lost City,"March 25, 2022 (United States)",12,2,Color,1 hour 52 minutes,2.39 : 1,6.7,"$68,854,159","$30,453,269","$78,554,159"
+tt9243804,The Green Knight,"July 30, 2021 (United States)",145,29,Color,2 hours 10 minutes,1.85 : 1,6.6,"$17,173,321","$6,790,917","$18,888,418"
+tt9620288,King Richard,"November 19, 2021 (United States)",7,36,Color,2 hours 24 minutes,2.39 : 1,7.5,"$15,129,285","$5,406,033","$38,429,285"
+tt4633694,Spider-Man: Into the Spider-Verse,"December 14, 2018 (United States)",212,50,Color,1 hour 57 minutes,2.39 : 1,8.4,"$190,241,310","$35,363,376","$375,540,831"
+tt1411480,The Outfit,"March 18, 2022 (United States)",75,29,Color,1 hour 45 minutes,,7.2,"$3,318,065","$1,499,730","$3,318,065"
+tt1029340,The Power of the Dog,"December 1, 2021 (United States)",6,9,Color,2 hours 6 minutes,2.39 : 1,6.9,,,"$270,304"
+tt1125224,Dog,"February 18, 2022 (United States)",58,29,Color,1 hour 41 minutes,2.39 : 1,6.5,"$60,682,357","$14,883,928","$74,463,197"
+tt2180339,Deep Water,"March 18, 2022 (United States)",11,9,Color,1 hour 55 minutes,1.85 : 1,5.4,,,
+tt0077413,Death on the Nile,"September 29, 1978 (United States)",101,"1,230",Color,2 hours 20 minutes,1.85 : 1,7.3,"$14,560,084",,"$14,568,801"
+tt8115900,The Bad Guys,"April 22, 2022 (United States)",64,10,Color,1 hour 40 minutes,2.39 : 1,7.0,,,"$40,309,000"
+tt1843303,The VelociPastor,"August 13, 2019 (United States)",229,185,Color,1 hour 15 minutes,1.78 : 1,5.1,,,
+tt9115530,The Eyes of Tammy Faye,"September 17, 2021 (United States)",13,52,Color,2 hours 6 minutes,1.85 : 1,6.6,"$2,404,127","$652,358","$2,684,529"
+tt9907782,The Cursed,"February 18, 2022 (United States)",193,117,Color,1 hour 51 minutes,2.39 : 1,6.3,"$4,588,389","$1,776,142","$4,588,389"
+tt1406009,Blacklight,"February 11, 2022 (United States)",79,13,Color,1 hour 44 minutes,2.35 : 1,4.7,"$9,591,094","$3,502,475","$15,206,864"
+tt0993840,Army of the Dead,"May 21, 2021 (United States)",97,379,Color,2 hours 28 minutes,1.78 : 1,5.7,,,
+tt7657566,Death on the Nile,"February 11, 2022 (United States)",2,46,Color,2 hours 7 minutes,2.39 : 1,6.4,"$45,571,626","$12,891,123","$136,151,267"
+tt7740496,Nightmare Alley,"December 17, 2021 (United States)",20,8,Color,2 hours 30 minutes,1.85 : 1,7.1,"$11,338,107","$2,811,703","$39,263,435"
+tt2463208,The Adam Project,"March 11, 2022 (United States)",15,11,Color,1 hour 46 minutes,2.39 : 1,6.7,,,
+tt5537002,Killers of the Flower Moon,2022 (United States),88,20,Color,,2.39 : 1,,,,
+tt0119173,G.I. Jane,"August 22, 1997 (United States)",22,"1,731",Color,2 hours 5 minutes,2.39 : 1,6.0,"$48,169,156","$11,094,241","$48,169,156"
+tt1040659,You Are Not My Mother,"March 4, 2022 (Ireland)",143,84,Color,1 hour 33 minutes,2.39:1,5.7,"$44,707","$24,286","$44,707"
+tt1022346,Marry Me,"February 11, 2022 (United States)",180,47,Color,1 hour 52 minutes,2.39 : 1,6.1,"$22,438,180","$7,949,980","$49,353,600"
+tt8097030,Turning Red,"March 11, 2022 (United States)",19,14,Color,1 hour 40 minutes,1.85 : 1,7.1,,,"$13,428,061"
+tt0110357,The Lion King,"June 24, 1994 (United States)",404,64,Color,1 hour 28 minutes,1.85 : 1(original ratio),8.5,"$422,783,777","$1,586,753","$1,063,611,805"
+tt4513678,Ghostbusters: Afterlife,"November 19, 2021 (United States)",68,15,Color,2 hours 4 minutes,2.39 : 1,7.2,"$129,360,575","$44,008,406","$197,360,575"
+tt1386697,Suicide Squad,"August 5, 2016 (United States)",159,27,Color,2 hours 3 minutes,2.39 : 1,5.9,"$325,100,054","$133,682,248","$746,846,894"
+tt1433114,Jujutsu Kaisen 0: The Movie,"March 18, 2022 (United States)",60,32,Color,1 hour 45 minutes,2.35 : 1,8.1,"$29,693,448","$14,818,624","$154,042,488"
+tt3281548,Little Women,"December 25, 2019 (United States)",190,15,Color,2 hours 15 minutes,1.85 : 1,7.8,"$108,101,214","$16,755,310","$216,601,214"
+tt0092099,Top Gun,"May 16, 1986 (United States)",46,49,Color,1 hour 50 minutes,2.39 : 1,6.9,"$180,258,178","$8,193,052","$357,288,178"
+tt1127103,Licorice Pizza,"December 25, 2021 (United States)",21,8,Color,2 hours 13 minutes,2.39 : 1,7.4,"$17,318,007","$345,157","$31,863,346"
