@@ -1,0 +1,1136 @@
+locationID,name,country
+1,Novi Sad,Serbia
+2,Wairarapa,New Zealand
+3,California,USA
+4,New York,USA
+5,Idaho,USA
+6,Oregon,USA
+7,England,UK
+8,Georgia,USA
+9,British Columbia,Canada
+10,Illinois,USA
+11,Buftea,Romania
+12,Texas,USA
+13,Western Australia,Australia
+14,Bangkok,Thailand
+15,Thailand,Thailand
+16,Czech Republic,Czech Republic
+17,Madrid,Spain
+18,Jakarta,Indonesia
+19,Ontario,Canada
+20,Saskatchewan,Canada
+21,Paris,France
+22,Florida,USA
+23,Kyrgyzstan,Kyrgyzstan
+24,Nedvedice pod Perstejnem,Czech Republic
+25,Sylhet,Bangladesh
+26,Connecticut,USA
+27,Lazio,Italy
+28,Quintana Roo,Mexico
+29,Seoul,South Korea
+30,Arizona,USA
+31,Troy New York,USA
+32,Catalonia,Spain
+33,Prague,Czech Republic
+34,Bucharest,Romania
+35,Jamaica,Jamaica
+36,Louisiana,USA
+37,Pennsylvania,USA
+38,Alaska,USA
+39,Washington,USA
+40,Victoria,Australia
+41,Scotland,UK
+42,Upper Austria,Austria
+43,Québec,Canada
+44,Distrito Federal,Mexico
+45,Ireland,Ireland
+46,Montana,USA
+47,Berlin,Germany
+48,Dolnoslaskie,Poland
+49,Rome,Italy
+50,Mississippi,USA
+51,Copenhagen,Denmark
+52,Colima,Mexico
+53,Tokyo,Japan
+54,New Mexico,USA
+55,Morocco,Morocco
+56,Maharashtra,India
+57,Jalisco,Mexico
+58,New Jersey,USA
+59,South Carolina,USA
+60,Portugal,Portugal
+61,Bavaria,Germany
+62,Andalucía,Spain
+63,Venezuela,Venezuela
+64,New South Wales,Australia
+65,Montevideo,Uruguay
+66,Georgetown,Guyana
+67,Tasmania,Australia
+68,Utah,USA
+69,Wales,UK
+70,Moscow,Russia
+71,Alabama,USA
+72,Lapland,Sweden
+73,Massachusetts,USA
+74,Newfoundland and Labrador,Canada
+75,South Africa,South Africa
+76,Virginia,USA
+77,Manitoba,Canada
+78,Hauts-de-Seine,France
+79,Osaka,Japan
+80,Noord-Holland,Netherlands
+81,Dublin,Ireland
+82,Budapest,Hungary
+83,Ohio,USA
+84,Malaysia,Malaysia
+85,Trentino - Alto Adige,Italy
+86,Washington State,USA
+87,Norrbottens län,Sweden
+88,Nevada,USA
+89,Nova Scotia,Canada
+90,Beirut,Lebanon
+91,Seine-Saint-Denis,France
+92,Castilla-La Mancha,Spain
+93,Iran,Iran
+94,Ouarzazate,Morocco
+95,Karnataka,India
+96,Stockholms län,Sweden
+97,Puerto Rico,Puerto Rico
+98,Northern Ireland,UK
+99,Casablanca,Morocco
+100,Alberta,Canada
+101,Abruzzo,Italy
+102,Iceland,Iceland
+103,Waikato,New Zealand
+104,Atlanta Georgia,USA
+105,Kansas,USA
+106,Shanghai,China
+107,Colorado,USA
+108,Mikkeli,Finland
+109,Tennessee,USA
+110,Philippines,Philippines
+111,Lesbos,Greece
+112,Missouri,USA
+113,Sarthe,France
+114,Cologne,Germany
+115,Lombardia,Italy
+116,Comunidad Valenciana,Spain
+117,Udon Rachatani,Thailand
+118,Guam,Guam
+119,County Galway,Ireland
+120,Couvet,Switzerland
+121,New Zealand,New Zealand
+122,Western Cape,South Africa
+123,Flanders,Belgium
+124,Auckland,New Zealand
+125,Atlanta,Georgia
+126,Rizal,Philippines
+127,Otago,New Zealand
+128,Queensland,Australia
+129,Belize City,Belize
+130,Federal District,Argentina
+131,Andhra Pradesh,India
+132,Val-d'Oise,France
+133,Tuscany,Italy
+134,Malta,Malta
+135,Bulgaria,Bulgaria
+136,Aruba,Aruba
+137,Minnesota,USA
+138,Debenham,Stowmarket UK
+139,Jylland,Denmark
+140,North Carolina,USA
+141,Cancun,Mexico
+142,Friuli-Venezia Giulia,Italy
+143,Ayuthaya,Thailand
+144,Rabat,Morocco
+145,Yvelines,France
+146,Oklahoma,USA
+147,Nièvre,France
+148,Michigan,USA
+149,Hong Kong,China
+150,Velké Losiny,Czech Republic
+151,Germany,Germany
+152,Mauritius,Mauritius
+153,Arkansas,USA
+154,Maryland,USA
+155,San Juan,Puerto Rico
+156,Mount Everest,Nepal
+157,Algiers,Algeria
+158,Istanbul,Turkey
+159,Oise,France
+160,Telangana,India
+161,Sonora,Mexico
+162,Extremadura,Spain
+163,Kentucky,USA
+164,Walloon Brabant,Belgium
+165,USA,USA
+166,Kyoto,Japan
+167,Canary Islands,Spain
+168,Wisconsin,USA
+169,Kanton Luzern,Switzerland
+170,Zuid-Holland,Netherlands
+171,Marietta,Georgia
+172,Castilla y León,Spain
+173,Vienna,Austria
+174,Chihuahua,Mexico
+175,Balearic Islands,Spain
+176,Crimea,Ukraine
+177,Japan,Japan
+178,Okinawa,Japan
+179,Húsavík,Iceland
+180,Zhejiang Province,China
+181,South France,France
+182,Helsinki,Finland
+183,Ayrshire,UK
+184,County Wicklow,Ireland
+185,Tamil Nadu,India
+186,Skógarfoss Waterfall,Iceland
+187,Hawaii,USA
+188,Taiwan,Taiwan
+189,Paraná,Brazil
+190,South Australia,Australia
+191,Mosul,Iraq
+192,Zambia,Zambia
+193,London,UK
+194,Alpes-Maritimes,France
+195,Sydney,Australia
+196,Valldal,Norway
+197,Stockholm,Sweden
+198,Zacatecas,Mexico
+199,Tehran,Iran
+200,Mugla,Turkey
+201,Brandenburg,Germany
+202,Dubai,UAE
+203,Sofia,Bulgaria
+204,Aswan,Egypt
+205,Jersey,Channel Islands
+206,Eyemouth TD14 5QG,UK
+207,Halong Bay,Vietnam
+208,Nuevo León,Mexico
+209,South Korea,South Korea
+210,Kanton Zürich,Switzerland
+211,Saxony,Germany
+212,Var,France
+213,Wallonia,Belgium
+214,Bratislava,Slovakia
+215,Italy,Italy
+216,Morelos,Mexico
+217,County Kildare,Ireland
+218,Rio de Janeiro,Brazil
+219,Athens,Greece
+220,Mazowieckie,Poland
+221,Sicilia,Italy
+222,Romania,Romania
+223,Tallinn,Estonia
+224,Fyn,Denmark
+225,Mexico City,Mexico
+226,North Rhine-Westphalia,Germany
+227,Rhode Island,USA
+228,Murmansk Oblast,Russia
+229,Libosovice,Czech Republic
+230,Northern Territory,Australia
+231,Kingston,Jamaica
+232,Andalucia,Spain
+233,Bermuda,Bermuda
+234,Jerusalem,Israel
+235,Chiang Mai,Thailand
+236,Midi-Pyrénées,France
+237,St. Ann,Jamaica
+238,Mumbai,India
+239,Cape Town,South Africa
+240,Split,Croatia
+241,Belvision,Belgium
+242,Wyoming,USA
+243,Tangier,Morocco
+244,Denmark,Denmark
+245,Fullerton California,USA
+246,Beijing,China
+247,Kuala Lumpur,Malaysia
+248,Gävleborgs län,Sweden
+249,District of Columbia,USA
+250,Holland,Holland
+251,Misiones,Argentina
+252,KwaZulu-Natal,South Africa
+253,North Africa,Africa
+254,Shanxi,China
+255,Barnesville Pennsylvania,USA
+256,Jotunheimen,Norway
+257,Tatra Mountains,Slovakia
+258,Penang,Malaysia
+259,Tårnåsen,Norway
+260,La Guajira,Colombia
+261,AB T2A 2M3,Canada
+262,Ambepussa,Sri Lanka
+263,Etyek,Hungary
+264,East Texas,USA
+265,Barcelona,Spain
+266,Krivoklát,Czech Republic
+267,Baja California Sur,Mexico
+268,Southern Province,Zambia
+269,Liguria,Italy
+270,Arizona-Nevada Border,USA
+271,Maine,USA
+272,Uzhhorod,Ukraine
+273,New Hampshire,USA
+274,Veracruz,Mexico
+275,Bwindi Impenetrable Forest,Uganda
+276,Tochigi,Japan
+277,Phuket,Thailand
+278,Belgrade,Serbia
+279,Ille-et-Vilaine,France
+280,Durango,Mexico
+281,France,France
+282,Canada,Canada
+283,Galicia,Spain
+284,West Virginia,USA
+285,Veneto,Italy
+286,Hiroshima,Japan
+287,Johannesburg Airport,South Africa
+288,Eure,France
+289,Anduze,France
+290,Siglufjörður,Iceland
+291,Cantone Ticino,Switzerland
+292,Arecibo,Puerto Rico
+293,Hachijôjima,Japan
+294,Loire-Atlantique,France
+295,Bouches-du-Rhône,France
+296,New Brunswick,Canada
+297,Delhi,India
+298,Namib Desert,Namibia
+299,Hidalgo,Mexico
+300,Baja California Norte,Mexico
+301,Mafra,Portugal
+302,Dominica,Dominica
+303,Sudtirol,Italy
+304,Dominican Republic,Dominican Republic
+305,Leeds,UK
+306,Slovenia,Slovenia
+307,Luxembourg,Luxembourg
+308,Republic of Ireland,Republic of Ireland
+309,Canton de Genève,Switzerland
+310,County Limerick,Ireland
+311,Côte d'Azur,France
+312,Indiana,USA
+313,Beersheba,Israel
+314,Franstudios - saint maurice,France
+315,County Mayo,Ireland
+316,Mexico,Mexico
+317,Kyiv,Ukraine
+318,Faroe Island,Denmark
+319,México City,Mexico
+320,Izmir,Turkey
+321,Turkey,Turkey
+322,Southland,New Zealand
+323,Columbus,Georgia
+324,Brittany,France
+325,USS Lexington,USS Lexington
+326,Punjab,India
+327,Upstate New York,USA
+328,Salzburg,Austria
+329,Onomichi,Japan
+330,Loiret,France
+331,Namibia,Namibia
+332,Sicily,Italy
+333,Leeward Islands,French Polynesia
+334,Antwerp,Belgium
+335,Vatnajökull National Park,Iceland
+336,Guerrero,Mexico
+337,Karakoram Mountain Range,Pakistan
+338,Wellington,New Zealand
+339,Lake Albert,Uganda
+340,Piedmont,Italy
+341,Zhejiang,China
+342,Douglas,Isle of Man
+343,Hanoi,Vietnam
+344,Laboissière-en-Thelle,France
+345,Chongqing,China
+346,Gemeentelijk Zwembad Aartselaar,Gemeentelijk Zwembad Aartselaar
+347,Tsavo National Park,Kenya
+348,Austria,Austria
+349,Isle of Man,Isle of Man
+350,Santo Domingo,Dominican Republic
+351,Switzerland,Switzerland
+352,Landes,France
+353,Gironde,France
+354,Hamburg,Germany
+355,Lucignano,Italy
+356,Khabarovsk,Russia
+357,Johannesburg,South Africa
+358,Madhya Pradesh,India
+359,Malopolskie,Poland
+360,Tirol,Austria
+361,Kidderminster DY10 1QX,United Kingdom
+362,Wester Ross,Scotland
+363,Sjælland,Denmark
+364,São Paulo,Brazil
+365,Lower Saxony,Germany
+366,Istria,Croatia
+367,Mykonos,Greece
+368,Tbilisi,Georgia
+369,Norway,Norway
+370,Skopelos,Greece
+371,Limburg,Netherlands
+372,Zimbabwe,Zimbabwe
+373,Oslo,Norway
+374,Rasnov,Romania
+375,Santiago,Chile
+376,Porvoo,Finland
+377,Abu Dhabi,UAE
+378,County Dublin,Ireland
+379,Trutnov,Czech Republic
+380,Campania,Italy
+381,Pardubice,Czech Republic
+382,Newfoundland,Canada
+383,Aguascalientes,Mexico
+384,Meknès,Morocco
+385,Sarajevo,Bosnia and Herzegovina
+386,Gothic Avenue / San Fernando Mission Boulevard,USA
+387,Belgium,Belgium
+388,Nevsehir,Turkey
+389,Bükk National Park,Hungary
+390,Kashgar,China
+391,Venice,Italy
+392,Massif Central,France
+393,Pomáz,Hungary
+394,Estado Bolívar,Venezuela
+395,North Wales,North Wales
+396,Mayenne,France
+397,Colon,Panama
+398,Basilicate,Italy
+399,Haute-Garonne,France
+400,West Bengal,India
+401,Loire,France
+402,Fukuoka,Japan
+403,L'Aquila,Italy
+404,Calle Apodaca,La Línea de la Concepción
+405,Iwo Jima,Japan
+406,Hérault,France
+407,North Sea near Heligoland,North Sea near Heligoland
+408,Las Vegas,USA
+409,Gaza,Palestine
+410,Asturias,Spain
+411,Central Java,Indonesia
+412,Chocó,Colombia
+413,Kanagawa,Japan
+414,Limpopo,South Africa
+415,South Dakota,USA
+416,Canton de Vaud,Switzerland
+417,Sun Village Beach Resort Cofresi,Dominican Republic
+418,Caxias,Portugal
+419,Tel Aviv-Yafo,Israel
+420,Nepal,Nepal
+421,Lake Turkana,Kenya
+422,St. Petersburg,Russia
+423,Baden-Württemberg,Germany
+424,Raffles Hotel,Singapore
+425,County Cork,Ireland
+426,Benesov,Czech Republic
+427,Rotorua,New Zealand
+428,Mahdia,Tunisia
+429,Changchun,China
+430,Ethiopia,Ethiopia
+431,Kanton Bern,Switzerland
+432,Yasnaya Polyana,Russia
+433,Sibenik,Croatia
+434,Brazil,Brazil
+435,Iowa,USA
+436,Marseille,France
+437,Albania,Albania
+438,Finistère,France
+439,Côte-d'Or,France
+440,Havana,Cuba
+441,Cordoba,Argentina
+442,Hyderabad,India
+443,Paris area,France
+444,Møre og Romsdal,Norway
+445,Salta,Argentina
+446,Cartagena,Colombia
+447,Haute-Savoie,France
+448,Kemijärvi,Finland
+449,AlUla,Saudi Arabia
+450,Cairo,Egypt
+451,San Luis Potosí,Mexico
+452,Calvados,France
+453,Loir-et-Cher,France
+454,Egypt,Egypt
+455,Ukraine,Ukraine
+456,Zachodniopomorskie,Poland
+457,País Vasco,Spain
+458,Delaware,USA
+459,Luton LU1 2LJ,United Kingdom
+460,Puebla,Mexico
+461,Jämtlands län,Sweden
+462,Apulia,Italy
+463,Riga,Latvia
+464,China,China
+465,County Clare,Ireland
+466,County Sligo,Ireland
+467,Ait Benhaddou,Morocco
+468,Hornafjörður,Iceland
+469,Mie,Japan
+470,Valletta,Malta
+471,Bogotá,Colombia
+472,Brussels-Capital,Belgium
+473,Bouhlel Sdada,Tunisia
+474,Prince Edward Island,Canada
+475,Tulcea County,Romania
+476,Nebraska,USA
+477,Södermanlands län,Sweden
+478,Schelle,Belgium
+479,Chile,Chile
+480,Santorini,Greece
+481,Aude,France
+482,Tozeur,Tunisia
+483,Port Louis,Mauritius
+484,Fuengirola,Spain
+485,Reykjavík,Iceland
+486,2750-319 Cascais,Portugal
+487,Västra Götalands län,Sweden
+488,Australia,Australia
+489,Goa,India
+490,India,India
+491,Yugoslavia,Yugoslavia
+492,UK,UK
+493,Kochi,Japan
+494,Côtes-d'Armor,France
+495,Vermont,USA
+496,Chittagong,Bangladesh
+497,Ringkøbing-Skjern kommune,Denmark
+498,Great Wall of China,China
+499,Jargeau in Loiret,France
+500,Djúpavík,Iceland
+501,Tai Po Industrial Estate,Hong Kong
+502,Jharkhand,India
+503,Seine-et-Marne,France
+504,Tarn,France
+505,Yeruham,Israel
+506,Turku,Finland
+507,Meuse,France
+508,Thessaloniki,Greece
+509,Israel,Israel
+510,Catez ob Savi,Slovenia
+511,Cambodia,Cambodia
+512,Aligarh,Aligarh
+513,Brussels,Belguim
+514,Turtle Island,Fiji
+515,Manche,France
+516,Vaucluse,France
+517,Swedish Lapland,Sweden
+518,Seine-Maritime,France
+519,Tel Aviv,Israel
+520,Poland,Poland
+521,Lozère,France
+522,Eatonton,Georgia
+523,Rajasthan,India
+524,Zeeland,Netherlands
+525,Ouarzazate Province,Morocco
+526,Downpatrick,UK
+527,Montreal,Canada
+528,Xitang,China
+529,Coahuíla,Mexico
+530,NSW,Australia
+531,Greece,Greece
+532,Sudan,Sudan
+533,Lisbon,Portugal
+534,Pancevo,Serbia
+535,Hungary,Hungary
+536,Pula,Croatia
+537,Sousse,Tunisia
+538,Hunedoara,Romania
+539,Pyhäjärvi,Finland
+540,Chennai,India
+541,Navarra,Spain
+542,Canterbury,New Zealand
+543,Cancún,Mexico
+544,Lithuania,Lithuania
+545,Macau,China
+546,Manawatu-Wanganui,New Zealand
+547,Skåne län,Sweden
+548,Cappadoccia,Turkey
+549,Gorkhaland Territorial Authority,India
+550,Saxony-Anhalt,Germany
+551,Esch-sur-Alzette,Luxembourg
+552,Heusden-Zolder,Belgium
+553,Chiba,Japan
+554,Rovinj,Croatia
+555,Buenos Aires,Argentina
+556,Cyclades,Greece
+557,Maranhão,Brazil
+558,Hertfordshire,UK
+559,Negril,Jamaica
+560,Lago Frias,Argentina
+561,Nizhny Novgorod,Russia
+562,Machu Picchu,Peru
+563,Corsica,Corsica
+564,Pamir Mountains,Tajikistan
+565,Antigua,Antigua and Barbuda
+566,Haiti,Haiti
+567,Nusa Tenggara Barat,Indonesia
+568,Pacific Ocean,Pacific Ocean
+569,Wadi Rum,Jordan
+570,Navarre,Spain
+571,County Kerry,Ireland
+572,Vakarel,Bulgaria
+573,Omoa,Honduras
+574,Croatia,Croatia
+575,Aragón,Spain
+576,Beez,Belgium
+577,Frankfurt,Germany
+578,Chernihiv,Ukraine
+579,High Wycombe,UK
+580,Opolskie,Poland
+581,Tinn,Norway
+582,Indonesia,Indonesia
+583,Central Province,Sri Lanka
+584,Amman,Jordan
+585,Tamaulipas,Mexico
+586,Berca,Romania
+587,Polynesia,Polynesia
+588,Bragança,Portugal
+589,Basilicata,Italy
+590,Bullingen,Belgium
+591,Perachora,Greece
+592,Spain,Spain
+593,Charente,France
+594,Umbria,Italy
+595,County Tipperary,Ireland
+596,Anhui Province,China
+597,Greater Copenhagen,Denmark
+598,Raabs an der Thaya,Austria
+599,Bodrum,Turkey
+600,Ærø,Denmark
+601,Judean Desert,Israel
+602,Baguio City,Philippines
+603,London WC2H 8DG,United Kingdom
+604,Gyeongsangnam-do,South Korea
+605,County Donegal,Ireland
+606,Finnmark,Norway
+607,Kagawa,Japan
+608,Alto Adige,Italy
+609,Kashmir,Kashmir
+610,Amazonas,Brazil
+611,Bay of Biscay,Atlantic Ocean
+612,Girona,Spain
+613,Krabi,Thailand
+614,Jeollabuk-do,South Korea
+615,Emilia-Romagna,Italy
+616,Pyrénées,France
+617,Pas-de-Calais,France
+618,Uruguay,Uruguay
+619,Murmansk oblast,Russia
+620,Papua New Guinea,Papua New Guinea
+621,Flevoland,Netherlands
+622,Isfahan,Iran
+623,Bovec,Slovenia
+624,Small Cyclades,Greece
+625,Adriatic Sea,Adriatic Sea
+626,Taveuni,Fiji
+627,Gelderland,Netherlands
+628,Fort Polignac,Algeria
+629,Danube River,Serbia
+630,Quebec,Canada
+631,Frederiksberg,Denmark
+632,Oaxaca,Mexico
+633,Canton de Fribourg,Switzerland
+634,Incheon,South Korea
+635,Szilvásvárad,Hungary
+636,Cornwall,Jamaica
+637,Puy-de-Dôme,France
+638,Neamt,Romania
+639,Cappadocia,Turkey
+640,Champagne,France
+641,Kharkiv,Ukraine
+642,Bolivia,Bolivia
+643,Valle d'Aosta,Italy
+644,Tarapoto,Peru
+645,Easter Island,Chile
+646,Majorca,Spain
+647,Estado de México,Mexico
+648,Rarotonga,Cook Islands
+649,Nord,France
+650,Port Royal,Jamaica
+651,Lyon,France
+652,Isère,France
+653,Crete,Greece
+654,Dobrís,Czech Republic
+655,Selangor,Malaysia
+656,Navida,Chile
+657,Notodden,Norway
+658,Pomorskie,Poland
+659,Amsterdam,Netherlands
+660,Erzurum,Turkey
+661,Whakaari/White Island,New Zealand
+662,Estonia,Estonia
+663,Vaupés,Colombia
+664,Tobago,Trinidad and Tobago
+665,Lofoten,Norway
+666,Taranto,Italy
+667,Niederachsen,Germany
+668,TS Maxim Gorkiy,Atlantic Ocean
+669,Bahia,Brazil
+670,Sardinia,Italy
+671,County Kilkenny,Ireland
+672,Colombia,Colombia
+673,Región de Valparaíso,Chile
+674,Lekenik,Croatia
+675,Stredoceský,Czech Republic
+676,Gothenburg,Sweden
+677,Panama,Panama
+678,Antalya,Turkey
+679,West Bank,Palestine
+680,Gotlands län,Sweden
+681,Paradise Island,Bahamas
+682,Celano,Italy
+683,Gauteng,South Africa
+684,Weimar,Germany
+685,Reunion Island,France
+686,Mae Hong Son,Thailand
+687,Hautes-Pyrénées,France
+688,Kent,UK
+689,San Pedro,Belize
+690,USS Independence CV-62,USS Independence CV-62
+691,La Paz,Bolivia
+692,Tomelilla,Sweden
+693,Lofoten Islands,Norway
+694,Hovedstaden,Denmark
+695,Creuse,France
+696,Karlovy Vary,Czech Republic
+697,Latvia,Latvia
+698,Ericeira,Portugal
+699,County Louth,Ireland
+700,Úrkút,Hungary
+701,Taipei City,Taiwan
+702,Maidenhead,UK
+703,Höfn,Iceland
+704,Daejeon,South Korea
+705,Leányfalu,Hungary
+706,Yonne,France
+707,Jaen,Spain
+708,Tottori prefecture,Japan
+709,AZ 85003,USA
+710,Guangxi,China
+711,Shiraz,Iran
+712,Telemark,Norway
+713,Krems an der Donau,Austria
+714,Uttar Pradesh,India
+715,Al-'Ula,Saudi Arabia
+716,Sikkim,India
+717,Hyogo Prefecture,Japan
+718,Midway Islands,Midway Islands
+719,Usak,Turkey
+720,Prahova,Romania
+721,Burma,Burma
+722,Rhodes,Greece
+723,Trentino,Italy
+724,Aisne,France
+725,Pitesti,Romania
+726,Lumlookka,Thailand
+727,Stratford,London E15
+728,Swansea,Wales
+729,Saint Petersburg,Russia
+730,Suceava,Romania
+731,Sri Lanka,Sri Lanka
+732,Laikipia,Kenya
+733,Nablus,Palestine
+734,Lebanon,Lebanon
+735,Said Halim Pasha Manor,Turkey
+736,Tura,Hungary
+737,Bornholm,Denmark
+738,Himeji City,Japan
+739,Lake Garda,Italy
+740,Bali,Indonesia
+741,Steiermark,Austria
+742,In. Ci.R. de Paolis,Italy
+743,Overijssel,Netherlands
+744,Vitu Levu,Fiji
+745,Moscow Oblast,Russia
+746,Reynisfjara,Iceland
+747,Bruntal,Czech Republic
+748,Portland,Jamaica
+749,Départements d'Outre-Mer,France
+750,Baires Studios,Argentina
+751,Dordogne,France
+752,Yucatán,Mexico
+753,Shizuoka,Japan
+754,Eleuthera Island,Bahamas
+755,Deadpan Desert,Namibia
+756,Capital Federal,Argentina
+757,Carinthia,Austria
+758,Haute-Loire,France
+759,Región Metropolitana de Santiago,Chile
+760,NY,United States
+761,TX 78704,USA
+762,Milton,Ontario
+763,CA 90026,USA
+764,Dnipropetrovska Oblast,Ukraine
+765,NM,United States
+766,México,México
+767,Laguna,Philippines
+768,Port Alfred,South Africa
+769,Marrakech,Morocco
+770,Delimara,Malta
+771,Aragua,Venezuela
+772,Aichi,Japan
+773,Chernobyl,Ukraine
+774,Attard,Malta
+775,Ploskovice Chateau,Czech Republic
+776,Ishikawa,Japan
+777,Taipei,Taiwan
+778,Shaba National Game Reserve,Kenya
+779,Botswana,Botswana
+780,Corrientes Province,Argentina
+781,Munich,Germany
+782,Baja California,Mexico
+783,Mediterranean Film Studios,Malta
+784,Glasgow,Scotland
+785,Rovaniemi,Finland
+786,Verdon Gorge,France
+787,Perak,Malaysia
+788,Limousin,France
+789,Bimini Islands,Bahamas
+790,Shiga,Japan
+791,Skaftafell,Iceland
+792,Luxor,Egypt
+793,New England,USA
+794,Nagasaki,Japan
+795,St. Peter's Basilica,Vatican City
+796,Aksaray,Turkey
+797,Toronto,Canada
+798,Limerick,Ireland
+799,Nezbudská Lúcka,Slovakia
+800,Kenya,Kenya
+801,Pará,Brazil
+802,Hell's Gate National Park,Kenya
+803,Durban,South Africa
+804,Melbourne,Australia
+805,Leptis Magna,Libya
+806,Waihau Bay,New Zealand
+807,Ecrins National Park,France
+808,Lódzkie,Poland
+809,Croke Park Dublin,Ireland
+810,Kingston upon Hull,UK
+811,Hae Hong,Thailand
+812,Charente-Maritime,France
+813,Africa,Africa
+814,Ohio 44255,USA
+815,Lot,France
+816,West Java,Indonesia
+817,Mardin,Turkey
+818,Guangdong,China
+819,Val-de-Marne,France
+820,Monte Carlo,Monaco
+821,7141 Rue Sherbrooke Ouest Montréal,QC H4B 1R6 Canada
+822,Jordan,Jordan
+823,1425 CABA,Argentina
+824,Salisbury,UK
+825,Anchor Bay,Malta
+826,Nevis,West Indies
+827,Quang Ninh,Vietnam
+828,Bjorli,Norway
+829,Vietnam,Vietnam
+830,Thuringia,Germany
+831,Metro Manila,Philippines
+832,Kyushu,Japan
+833,Otta,Norway
+834,Abaco Island,Bahamas
+835,New Providence Island,Bahamas
+836,Seychelles,Seychelles
+837,Erongo,Namibia
+838,Kefallonia Island,Greece
+839,Orne,France
+840,Crane Beach,Barbados
+841,Rio Grande do Norte,Brazil
+842,Alsace,France
+843,Lower Austria,Austria
+844,Gibraltar,Gibraltar
+845,Vancouver,Canada
+846,Busan,South Korea
+847,Vendée,France
+848,Rømø,Denmark
+849,Lint,Belgium
+850,Dyrhóaey,Iceland
+851,Molise,Italy
+852,Bahamas,Bahamas
+853,Costa Rica,Costa Rica
+854,Haifa,Israel
+855,East Sussex,UK
+856,Roubaix,France
+857,Basque Country,Spain
+858,Latrach,Tunisia
+859,Sarawak,Malaysia
+860,Essonne,France
+861,Cundinamarca,Colombia
+862,Titran,Norway
+863,Bogor,Indonesia
+864,Mato Grosso do Sul,Brazil
+865,Eure-et-Loir,France
+866,Primorsky Kray,Russia
+867,Norden,Germany
+868,Muscat,Oman
+869,Andorra,Andorra
+870,NYC,USA
+871,Belvoir Forest Park,Belfast
+872,Phang Nga,Thailand
+873,Singapore,Singapore
+874,Tromsø,Norway
+875,Guizhou Province,China
+876,Mokpo,South Korea
+877,Tampere,Finland
+878,Iquitos,Peru
+879,Galway,Ireland
+880,Antakya,Turkey
+881,Langkawi Island,Malaysia
+882,Canarias,Spain
+883,Théoule-sur-Mer,France
+884,Chattanooga,TN
+885,Uttarakhand,India
+886,Petra,Jordan
+887,Nymburk District,Czech Republic
+888,Gangneung Station,South Korea
+889,Hualien,Taiwan
+890,Quintana Roo.,Mexico
+891,Kerala,India
+892,County Laois,Ireland
+893,Elche,Spain
+894,Messinia,Greece
+895,Taveuni Island,Fiji
+896,Free State,South Africa
+897,St Lucia,St Lucia
+898,Kampala,Uganda
+899,Belize,Belize
+900,Noord-Brabant,Netherlands
+901,Rhineland-Palatinate,Germany
+902,Cantal,France
+903,Le Perthus,France
+904,Cheongju,South Korea
+905,Neamt County,Romania
+906,Huayna Picchu,Peru
+907,Hallands län,Sweden
+908,Nuneaton,UK
+909,Libya,Libya
+910,Halifax,UK
+911,Cévennes,France
+912,Atlas Mountains,Morocco
+913,Innlandet,Norway
+914,Valle del Cauca,Colombia
+915,Tyrol,Austria
+916,Eastern Cape,South Africa
+917,Kotor,Montenegro
+918,Cebu City,Philippines
+919,Pretoria,South Africa
+920,Argentina,Argentina
+921,Ciudad de México,Mexico
+922,New Orleans,New Orleans
+923,Guanajuato,Mexico
+924,Basra,Iraq
+925,NCR,India
+926,New Taipei City,Taishan District
+927,Monmouth,UK
+928,Bath,UK
+929,Mayo,Ireland
+930,Hydra,Greece
+931,Ankara,Ankara
+932,Vega Baja,Puerto Rico
+933,Dommeldange,Luxembourg
+934,Serowe,Botswana
+935,Panama City,Panama
+936,Grand Central Airport Midrand,South Africa
+937,County Meath,Ireland
+938,Gers,France
+939,Trentino-Alto Adige,Italy
+940,Da Nang,Vietnam
+941,Antwerpen,Belgium
+942,Geumodo Island,South Korea
+943,Ibaraki,Japan
+944,Dili,East Timor
+945,Aurora,Philippines
+946,Afghanistan,Afghanistan
+947,Cernovice,Czech Republic
+948,Salar de Uyuni,Bolivia
+949,Lurgan,Northern Ireland
+950,Cantabria,Spain
+951,Jasper GA - Ellijay GA and Nelson Georgia,USA
+952,Nayarit,Mexico
+953,Gstaad,Switzerland
+954,Hengdian World Studios,China
+955,Dubrovnik,Croatia
+956,Adana,Turkey
+957,Osijek,Croatia
+958,Sanliurfa,Turkey
+959,Capri,Italy
+960,Lake Balaton,Hungary
+961,Sibiu,Romania
+962,St. Croix,U.S. Virgin Islands
+963,Wielkopolskie,Poland
+964,Jar,Norway
+965,North Dakota,USA
+966,Gansu,China
+967,CDMX,Mexico
+968,St Vincent,St Vincent and the Grenadines
+969,Ho Chi Minh City,Vietnam
+970,Buckinghamshire,England
+971,Bas-Rhin,France
+972,Cyprus,Cyprus
+973,Phnom Penh,Cambodia
+974,Kanchanaburi,Thailand
+975,Space,Space
+976,Burgas,Bulgaria
+977,Tunisia,Tunisia
+978,Ras Al Khaimah,United Arab Emirates
+979,Komárom-Esztergom,Hungary
+980,Tikal National Park,Guatemala
+981,Sundbyberg,Sweden
+982,Konya,Turkey
+983,Savoie,France
+984,Transylvania,Romania
+985,Hyogo,Japan
+986,Gozo Island,Malta
+987,Seine et Marne,France
+988,Greenland,Greenland
+989,Vianden,Luxembourg
+990,Old Montréal,Canada
+991,Taranaki,New Zealand
+992,Cork City,Ireland
+993,Cluj-Napoca,Romania
+994,Phaselis,Turkey
+995,Maldon CM9 8UH,UK
+996,Borodino,Russia
+997,Bramans,France
+998,Odessa,Ukraine
+999,County Waterford,Ireland
+1000,Baja,Hungary
+1001,Beacon national park,Wales
+1002,1110 Vienna,Austria
+1003,Co. Wexford,Ireland
+1004,Languedoc,France
+1005,Lombardy,Italy
+1006,Pakistan,Pakistan
+1007,Gyeonggi Province,South Korea
+1008,Negev Desert,Israel
+1009,Matamata,New Zealand
+1010,Celje,Slovenia
+1011,Hellesylt,Norway
+1012,Inner Mongolia,China
+1013,Kitzbuhel,Austria
+1014,Plovdiv Airport,Bulgaria
+1015,Karachi,Pakistan
+1016,Burkina Faso,Burkina Faso
+1017,North Atlantic,Atlantic Ocean
+1018,Albuquerque New Mexico,USA
+1019,Pyrénées-Atlantiques,France
+1020,Cordes-sur-Ciel,France
+1021,Aszód,Hungary
+1022,Khon Khaen,Thailand
+1023,Monastir,Tunisia
+1024,Quito,Ecuador
+1025,Heng Dian,China
+1026,Florence,Italy
+1027,Tula Oblast,Russia
+1028,Zagreb,Croatia
+1029,Los Angeles,Ukraine
+1030,Lagos,Nigeria
+1031,Río Negro,Argentina
+1032,Calabria,Italy
+1033,St. Michael,Austria
+1034,San Fransisco,USA
+1035,Island Studios,Isle of Man
+1036,Jeollanamdo,South Korea
+1037,Faroe Islands,Faroe Islands
+1038,Vilnius,Lithuania
+1039,Forsand,Norway
+1040,Ras Al-Khaimah,United Arab Emirates
+1041,Netherlands,Netherlands
+1042,Bounty Island,Fiji
+1043,Siula Grande,Peru
+1044,Accra,Ghana
+1045,Salaya,Thailand
+1046,Russia,Russia
+1047,Cuzco,Peru
+1048,Douar el Ghadban,Morocco
+1049,& Boca de Jaruco,Cuba
+1050,Upington,South Africa
+1051,Maldonado,Uruguay
+1052,Kanton Glarus,Switzerland
+1053,Pezinok,Slovakia
+1054,Wecker,Luxembourg
+1055,Schleswig-Holstein,Germany
+1056,Peniche,Portugal
+1057,County Wexford,Ireland
+1058,Isabela,Puerto Rico
+1059,Holte,Denmark
+1060,Taastrup,Denmark
+1061,Northern Cape,South Africa
+1062,Johor,Malaysia
+1063,District Of Columbia,USA
+1064,Leinster,Ireland
+1065,Dunedin,New Zealand
+1066,Lima,Peru
+1067,Serbia,Serbia
+1068,Skopje,North Macedonia
+1069,Holt NR25 7TE,United Kingdom
+1070,Prince Albert,South Africa
+1071,Cesky Krumlov,Czech Republic
+1072,Stellenbosch,South Africa
+1073,Hardanger,Norway
+1074,Republic of Georgia,Republic of Georgia
+1075,Svalbard,Norway
+1076,Newport Rhode Island,USA
+1077,Croydon,UK
+1078,Chengdu,China
+1079,Aéroport de Paris-Orly,France
+1080,HA8 7EF,USA
+1081,Tammela,Finland
+1082,Brasov County,Romania
+1083,Mostar,Bosnia and Herzegovina
+1084,Senkaku Islands,Japan
+1085,Mines Near Orogrande New Mexico,USA
+1086,Alton GU34 5SR,United Kingdom
+1087,Tsitsikamma forest,South Africa
+1088,Frederiksted,Virgin Islands
+1089,Paraíba,Brazil
+1090,Maputo,Mozambique
+1091,RMS Queen Mary 2,RMS Queen Mary 2
+1092,Cuba,Cuba
+1093,Ardèche,France
+1094,Manali,India
+1095,Radauti,Romania
+1096,Acapulco,Mexico
+1097,California 93023,USA
+1098,Rijeka,Croatia
+1099,Östergötlands län,Sweden
+1100,Zambales,Philippines
+1101,Banks Peninsula,New Zealand
+1102,Manila,Philippines
+1103,Potosí,Bolivia
+1104,Minas Gerais,Brazil
+1105,Yerevan,Armenia
+1106,Miami Florida,USA
+1107,Lviv,Ukraine
+1108,Sintra,Portugal
+1109,RMS Rhone Wreck,British Virgin Islands
+1110,Benguet,Philippines
+1111,Monuriki,Fiji
+1112,Zakarpattia,Ukraine
+1113,Tara National Forest,Serbia
+1114,Cognac,France
+1115,Yukon,Canada
+1116,Grundarfjörður,Iceland
+1117,South Sinai Governorate,Egypt
+1118,Gilan Province,Iran
+1119,Slaskie,Poland
+1120,Mongolia,Mongolia
+1121,Bursa,Turkey
+1122,Central Bohemia,Czech Republic
+1123,Oulu,Finland
+1124,Sibiu County,Romania
+1125,Samobor,Croatia
+1126,Gorky,Russia
+1127,Zamboanga Del Norte,Philippines
+1128,Chaudfontaine,Belgium
+1129,Amazon Rainforest,Colombia
+1130,Central Plateau,New Zealand
+1131,Shimla,India
+1132,Haute-Saône,France
+1133,Westfjords,Iceland
+1134,Himachal Pradesh,India
+1135,Samoa,Samoa
