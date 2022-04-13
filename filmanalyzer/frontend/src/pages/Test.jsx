@@ -78,13 +78,13 @@ export default function Test() {
         </button>
         <button
           className="flex bg-slate-300 rounded-md px-3 py-2"
-          onClick={() => navigate("/")}
+          onClick={() => doQuery()}
         >
           Roles
         </button>
         <button
           className="flex bg-slate-300 rounded-md px-3 py-2"
-          onClick={() => navigate("/")}
+          onClick={() => doQuery()}
         >
           Profit
         </button>

@@ -13,12 +13,7 @@ export default function Movie() {
         >
           Box Office Info
         </button>
-        <button
-          className="bg-slate-300 text-xl rounded-md px-3 py-2"
-          onClick={() => navigate("..")}
-        >
-          Back
-        </button>
+        <br></br>
       </div>
       <div className="flex flex-row space-x-20 text-2xl">
         <br></br>
