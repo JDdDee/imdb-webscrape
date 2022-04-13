@@ -1,0 +1,20 @@
+{
+  "name": "filmanalyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd backend && npm run start",
+    "frontend:dev": "cd frontend && npm run dev",
+    "backend:dev": "cd backend && npm run dev",
+    "dev": "concurrently -n backend,frontend -c green.bold,blue.bold \"npm run backend:dev\" \"npm run frontend:dev\"",
+    "frontend:build": "cd frontend && npm run build",
+    "setup": "npm install && concurrently -n backend,frontend -c green.bold,blue.bold \"cd backend && npm install\" \"cd frontend && npm install\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
