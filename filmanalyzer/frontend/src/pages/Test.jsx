@@ -72,12 +72,6 @@ export default function Test() {
           variant="outlined"
           label="Search for Actors/Cast"
         />
-        <button
-          className="flex bg-slate-300 rounded-md px-3 py-3"
-          onClick={() => searchCast(inputText)}
-        >
-          Go
-        </button>
       </div>
       <div className="flex flex-row justify-center space-x-72">
         <button
