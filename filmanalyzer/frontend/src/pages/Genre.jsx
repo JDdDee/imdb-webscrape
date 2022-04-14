@@ -74,7 +74,6 @@ export default function Test() {
       },
     ]);
     setYaxis("IMDb Rating");
-    setYaxis2("");
     setXaxis("Year of Release");
   }
 
@@ -106,7 +105,6 @@ export default function Test() {
       },
     ]);
     setYaxis("Grossing Worldwide");
-    setYaxis2("");
     setXaxis("Year of Release");
   }
 
@@ -162,8 +160,7 @@ export default function Test() {
         secondaryAxisId: "2",
       },
     ]);
-    setYaxis("Grossing Worldwide");
-    setYaxis2("IMDb Rating");
+    setYaxis("Grossing US/CA");
     setXaxis("Year of Release");
   }
 

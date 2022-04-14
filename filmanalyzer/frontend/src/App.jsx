@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Movie from "./pages/Movies";
 import Cast from "./pages/Cast";
 import Location from "./pages/Location";
+import Genre from "./pages/Genre";
 
 // const queries = {
 //   "query-name": (params) => {
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/" element={<Movie />} />
         <Route path="/cast" element={<Cast />} />
         <Route path="/location" element={<Location />} />
+        <Route path="/genre" element={<Genre />} />
       </Routes>
     </BrowserRouter>
   );

@@ -6,6 +6,7 @@ import TextField from "@mui/material/TextField";
 
 export default function Test() {
   const [inputText, setInputText] = React.useState("");
+  const [yaxis2, setYaxis2] = React.useState("");
   const [data, setData] = React.useState([
     { label: "React Charts", data: [{ x: 0, y: 0 }] },
   ]);
@@ -15,35 +16,19 @@ export default function Test() {
 
   async function searchRating(name) {
     let res = "";
-    if (searchBy == "CASTNAME") {
-      res = await executeQuery(
-        'SELECT IMDBRATING, RELEASEDATE FROM (SELECT MOVIEID FROM "JONATHAN.CUNNING".WORKSON INNER JOIN (SELECT CASTID FROM "JONATHAN.CUNNING".CAST WHERE lower ( CASTNAME )= :name ) A ON "JONATHAN.CUNNING".WORKSON.CASTID = A.CASTID) B INNER JOIN "JONATHAN.CUNNING".MOVIE ON B.MOVIEID = "JONATHAN.CUNNING".MOVIE.MOVIEID',
-        [name]
-      );
-    } else {
-      res = await executeQuery(
-        'SELECT IMDBRATING, RELEASEDATE FROM (SELECT MOVIEID FROM "JONATHAN.CUNNING".WORKSON WHERE CASTID = :name) B INNER JOIN "JONATHAN.CUNNING".MOVIE ON B.MOVIEID = "JONATHAN.CUNNING".MOVIE.MOVIEID',
-        [parseInt(name)]
-      );
-    }
-    return res;
-  }
-
-  async function searchGross(name) {
-    let res = "";
     if (searchBy == "COUNTRY") {
       res = await executeQuery(
-        'SELECT MOVIEID, GrossingWorld,releasedate FROM (SELECT * FROM "JONATHAN.CUNNING".FILMEDAT natural join "JONATHAN.CUNNING".LOCATION WHERE lower (COUNTRY) = :name) natural join ("JONATHAN.CUNNING".MOVIE)',
+        'SELECT AVG(IMDBRATING) as IMDBRATING, yr FROM ( SELECT imdbrating, extract(year from releasedate) as yr FROM ( SELECT * FROM "JONATHAN.CUNNING".FILMEDAT natural join "JONATHAN.CUNNING".LOCATION WHERE lower (COUNTRY) = :name) natural join ("JONATHAN.CUNNING".MOVIE) ) where yr > 1976 group by YR',
         [name]
       );
     } else if (searchBy == "LOCATIONNAME") {
       res = await executeQuery(
-        'SELECT GrossingWorld,releasedate FROM (SELECT * FROM "JONATHAN.CUNNING".FILMEDAT natural join "JONATHAN.CUNNING".LOCATION WHERE lower (LOCATIONNAME) = :name) natural join ("JONATHAN.CUNNING".MOVIE)',
+        'SELECT AVG(IMDBRATING) as IMDBRATING, yr FROM ( SELECT imdbrating, extract(year from releasedate) as yr FROM ( SELECT * FROM "JONATHAN.CUNNING".FILMEDAT natural join "JONATHAN.CUNNING".LOCATION WHERE lower (LOCATIONNAME) = :name) natural join ("JONATHAN.CUNNING".MOVIE) ) where yr > 1976 group by YR',
         [name]
       );
     } else {
       res = await executeQuery(
-        'SELECT GrossingWorld,releasedate FROM (SELECT * FROM "JONATHAN.CUNNING".FILMEDAT natural join "JONATHAN.CUNNING".LOCATION WHERE LOCATIONID = :name) natural join ("JONATHAN.CUNNING".MOVIE)',
+        'SELECT AVG(IMDBRATING) as IMDBRATING, yr FROM ( SELECT imdbrating, extract(year from releasedate) as yr FROM ( SELECT * FROM "JONATHAN.CUNNING".FILMEDAT natural join "JONATHAN.CUNNING".LOCATION WHERE LOCATIONID = :name) natural join ("JONATHAN.CUNNING".MOVIE) ) where yr > 1976 group by YR',
         [parseInt(name)]
       );
     }
@@ -51,51 +36,50 @@ export default function Test() {
     return res;
   }
 
-  async function searchGrossUSCA(name) {
+  async function searchGross(name) {
     let res = "";
-    if (searchBy == "CASTNAME") {
+    if (searchBy == "COUNTRY") {
       res = await executeQuery(
-        'SELECT GROSSINGUSCA, RELEASEDATE FROM (SELECT MOVIEID FROM "JONATHAN.CUNNING".WORKSON INNER JOIN (SELECT CASTID FROM "JONATHAN.CUNNING".CAST WHERE lower ( CASTNAME )= :name ) A ON "JONATHAN.CUNNING".WORKSON.CASTID = A.CASTID) B INNER JOIN "JONATHAN.CUNNING".MOVIE ON B.MOVIEID = "JONATHAN.CUNNING".MOVIE.MOVIEID',
+        'SELECT FLOOR(AVG(GROSSINGWORLD)) as GROSSINGWORLD, YR FROM ( SELECT GROSSINGWORLD, extract(year from releasedate) as YR FROM ( SELECT * FROM "JONATHAN.CUNNING".FILMEDAT natural join "JONATHAN.CUNNING".LOCATION WHERE lower (COUNTRY) = :name) natural join ("JONATHAN.CUNNING".MOVIE) ) where YR > 1976 group by YR',
+        [name]
+      );
+    } else if (searchBy == "LOCATIONNAME") {
+      res = await executeQuery(
+        'SELECT FLOOR(AVG(GROSSINGWORLD)) as GROSSINGWORLD, YR FROM ( SELECT GROSSINGWORLD, extract(year from releasedate) as YR FROM ( SELECT * FROM "JONATHAN.CUNNING".FILMEDAT natural join "JONATHAN.CUNNING".LOCATION WHERE lower (LOCATIONNAME) = :name) natural join ("JONATHAN.CUNNING".MOVIE) ) where YR > 1976 group by YR',
         [name]
       );
     } else {
       res = await executeQuery(
-        'SELECT GROSSINGUSCA, RELEASEDATE FROM (SELECT MOVIEID FROM "JONATHAN.CUNNING".WORKSON WHERE CASTID = :name) B INNER JOIN "JONATHAN.CUNNING".MOVIE ON B.MOVIEID = "JONATHAN.CUNNING".MOVIE.MOVIEID',
+        'SELECT FLOOR(AVG(GROSSINGWORLD)) as GROSSINGWORLD, YR FROM ( SELECT GROSSINGWORLD, extract(year from releasedate) as YR FROM ( SELECT * FROM "JONATHAN.CUNNING".FILMEDAT natural join "JONATHAN.CUNNING".LOCATION WHERE LOCATIONID = :name) natural join ("JONATHAN.CUNNING".MOVIE) ) where YR > 1976 group by YR',
         [parseInt(name)]
       );
     }
+    console.log(res);
     return res;
   }
 
   async function setRoles() {
     let temp = await searchRating(inputText);
-
+    console.log(temp);
     temp = temp.rows;
     if (temp.length == 0) {
       console.log(searchBy);
       return;
     }
-    temp = temp.filter((a) => a.RELEASEDATE != null && a.IMDBRATING != null);
-    temp = temp.sort(
-      (a, b) => new Date(a.RELEASEDATE) - new Date(b.RELEASEDATE)
-    );
-    temp = temp.map(function (row) {
-      return {
-        RELEASEDATE: row.RELEASEDATE.substr(0, 10),
-        IMDBRATING: row.IMDBRATING,
-      };
-    });
+    temp = temp.filter((a) => a.YR != null && a.IMDBRATING != null);
+    temp = temp.sort((a, b) => a.YR - b.YR);
     console.log(temp);
     setData([
       {
         label: "Ratings",
         data: temp.map(function (row) {
-          return { x: new Date(row.RELEASEDATE), y: row.IMDBRATING };
+          return { x: new Date(row.YR, 0), y: row.IMDBRATING };
         }),
       },
     ]);
     setYaxis("IMDb Rating");
     setXaxis("Year of Release");
+    setYaxis2("");
   }
 
   async function setGross() {
@@ -106,28 +90,22 @@ export default function Test() {
       console.log(searchBy);
       return;
     }
-    temp = temp.filter((a) => a.RELEASEDATE != null && a.GROSSINGWORLD != null);
-    temp = temp.sort(
-      (a, b) => new Date(a.RELEASEDATE) - new Date(b.RELEASEDATE)
-    );
     console.log(temp);
-    temp = temp.map(function (row) {
-      return {
-        RELEASEDATE: row.RELEASEDATE.substr(0, 10),
-        GROSSINGWORLD: row.GROSSINGWORLD,
-      };
-    });
+    temp = temp.filter((a) => a.YR != null && a.GROSSINGWORLD != null);
+
+    temp = temp.sort((a, b) => a.YR - b.YR);
     console.log(temp);
     setData([
       {
         label: "Grossing",
         data: temp.map(function (row) {
-          return { x: new Date(row.RELEASEDATE), y: row.GROSSINGWORLD };
+          return { x: new Date(row.YR, 1), y: row.GROSSINGWORLD };
         }),
       },
     ]);
     setYaxis("Grossing Worldwide");
     setXaxis("Year of Release");
+    setYaxis2("");
   }
 
   async function setBoth() {
@@ -138,52 +116,43 @@ export default function Test() {
       console.log(searchBy);
       return;
     }
-    temp = temp.filter((a) => a.RELEASEDATE != null && a.GROSSINGWORLD != null);
-    temp = temp.sort(
-      (a, b) => new Date(a.RELEASEDATE) - new Date(b.RELEASEDATE)
-    );
-    temp = temp.map(function (row) {
-      return {
-        RELEASEDATE: row.RELEASEDATE.substr(0, 10),
-        GROSSINGWORLD: row.GROSSINGWORLD,
-      };
-    });
+
+    temp = temp.filter((a) => a.YR != null && a.GROSSINGWORLD != null);
+
+    temp = temp.sort((a, b) => a.YR - b.YR);
 
     let temp1 = await searchRating(inputText);
-
+    console.log(temp1);
     temp1 = temp1.rows;
     if (temp1.length == 0) {
       console.log(searchBy);
       return;
     }
-    temp1 = temp1.filter((a) => a.RELEASEDATE != null && a.IMDBRATING != null);
-    temp1 = temp1.sort(
-      (a, b) => new Date(a.RELEASEDATE) - new Date(b.RELEASEDATE)
-    );
-    temp1 = temp1.map(function (row) {
-      return {
-        RELEASEDATE: row.RELEASEDATE.substr(0, 10),
-        IMDBRATING: row.IMDBRATING,
-      };
-    });
-    console.log(temp);
+    temp1 = temp1.filter((a) => a.YR != null && a.IMDBRATING != null);
+    temp1 = temp1.sort((a, b) => a.YR - b.YR);
+
+    // console.log(temp);
+    // console.log(temp1);
     setData([
       {
         label: "Grossing",
         data: temp.map(function (row) {
-          return { x: new Date(row.RELEASEDATE), y: row.GROSSINGWORLD };
+          return { x: new Date(row.YR, 0), y: row.GROSSINGWORLD };
         }),
       },
       {
         label: "IMDb Rating",
         data: temp1.map(function (row) {
-          return { x: new Date(row.RELEASEDATE), y: row.IMDBRATING };
+          return { x: new Date(row.YR, 0), y: row.IMDBRATING };
         }),
         secondaryAxisId: "2",
       },
     ]);
-    setYaxis("Grossing US/CA");
+
+    setYaxis("Grossing Worldwide");
     setXaxis("Year of Release");
+    setYaxis2("IMDb Rating");
+    return;
   }
 
   const navigate = useNavigate();
@@ -287,6 +256,9 @@ export default function Test() {
               }}
             />
           </div>
+          <h1 className="flex flex-col justify-center max-w-[60rem] break-all">
+            {yaxis2}
+          </h1>
         </div>
         <div className="flex justify-between">
           <br></br>
