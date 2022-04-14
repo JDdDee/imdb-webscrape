@@ -1,7 +1,8 @@
 import { executeQuery } from "./utils/api";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Movie from "./pages/Movies";
-import Test from "./pages/Test";
+import Cast from "./pages/Cast";
+import Location from "./pages/Location";
 
 // const queries = {
 //   "query-name": (params) => {
@@ -22,7 +23,8 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Movie />} />
-        <Route path="/test" element={<Test />} />
+        <Route path="/cast" element={<Cast />} />
+        <Route path="/location" element={<Location />} />
       </Routes>
     </BrowserRouter>
   );
